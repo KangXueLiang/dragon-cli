@@ -1,0 +1,45 @@
+{
+  "name": "member-system",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Chason <25424554@qq.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:uat": "vue-cli-service build --mode uat && node build.version.js",
+    "build:pre": "vue-cli-service build --mode pre && node build.version.js",
+    "build:prod": "vue-cli-service build --mode production && node build.version.js",
+    "analyz": "npm_config_report=true npm run build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.4.9",
+    "js-cookie": "^2.2.0",
+    "normalize.css": "^8.0.0",
+    "nprogress": "^0.2.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.1.0",
+    "@vue/cli-plugin-eslint": "^3.1.1",
+    "@vue/cli-plugin-unit-mocha": "^3.1.0",
+    "@vue/cli-service": "^3.1.1",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "chai": "^4.1.2",
+    "compression-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "script-ext-html-webpack-plugin": "^2.0.3",
+    "svg-sprite-loader": "^4.1.3",
+    "svgo": "^1.1.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-bundle-analyzer": "^3.0.3"
+  }
+}

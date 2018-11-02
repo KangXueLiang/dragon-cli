@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2104c6"],{b6fb:function(n,t,e){"use strict";e.r(t);var l=function(n,t){var e=t._c;return e("div",{staticStyle:{padding:"30px"}},[e("el-alert",{attrs:{closable:!1,title:"menu 1-2-2",type:"warning"}})],1)},i=[],a=e("2877"),u={},c=Object(a["a"])(u,l,i,!0,null,null,null);c.options.__file="index.vue";t["default"]=c.exports}}]);
+//# sourceMappingURL=chunk-2d2104c6.4d891258.js.map
